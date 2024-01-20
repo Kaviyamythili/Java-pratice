@@ -1,0 +1,39 @@
+Coffee Shop Savings
+Emma is a coffee enthusiast and frequents her favorite coffee shop. Write a Java program that helps her track her daily coffee expenses. The program should take the cost of each coffee, the number of coffees she buys each day assuming the number is the same every day), and display the weekly total expenditure.
+
+Input format:
+The first line is the decimal value that represents the cost of each coffee.
+The second line is the Integer that represents the number of coffees bought on each day.
+
+Output format:
+The output is the decimal value that represents the weekly total expenditure on coffee
+Note: The code for handling Inputs is already been given, your task is to fill in the required code,
+
+Sample Test Cases
+Test Case 1:
+Expected Output:
+25.5
+3
+535.5
+
+Test Case 2:
+Expected Output:
+30.0
+2
+420.0
+
+//solution
+package q22269;
+import java.util.Scanner;
+public class ExpenseTracker{
+public static void main(String[] args){
+Scanner scanner = new Scanner(System.in);
+double cost = scanner.nextDouble();
+int coffee = scanner.nextInt();
+int coffee = c;
+double d = c;
+double a = d * cost;
+double b = a * 7;
+Syatem.out.println(b);
+}
+}
