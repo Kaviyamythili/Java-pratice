@@ -1,0 +1,34 @@
+Jannvi's Magical Adventure
+Deep within an ancient forest, Jahnvi sets off on a magical journey, following a mysterious map that points the way to a hidden treasure. As she arrives at the end of her quest, a magical door emerges, displaying a special number that holds the key to the long-lost treasure
+To open the door, Jahnvi needs to figure out the last digit of this magical number. Your job is to write a Java program to help Jahnvi uncover this secret digit
+
+Input format:
+The input is the integer that represents the magical number.
+
+Output format:
+The output is the integer that represents the last digit of the magical number.
+
+Note: The code for handling inputs is already been given, your task is to fill in the required code.
+
+Sample Test Cases
+Test Case 1:
+Expected Output:
+2465
+5
+
+Test Case 2:
+Expected Output:
+201520
+0
+
+//solution
+package 922255;
+import java.util.Scanner;
+public class EnchantedKey {
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+int magicalNumber = scanner.nextInt();
+int a = magicalNumber % 10;
+System.out.println(a);
+}
+}
