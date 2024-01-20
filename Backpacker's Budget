@@ -1,0 +1,48 @@
+Backpacker's Budget
+Zoe is planning a trackpacking trip and aims to manage her expenses wisely by spending the same amount each day. At the end of the trip, Zoe would like to know her remaining budget. 
+Can you assist Zoe in calculating the remaining budget? She will provide you with the following details:
+The number of days on the trip.
+The cost of expenses per day.
+Zoe's initial budget
+
+Input format:
+The first line is the integer that represents the number of days on trip.
+The second line is the decimal value that represents the cost of expenses per day.
+The third line is the decimal value that represents the initial budget.
+
+Output format:
+The output is the decimal value that represents the remaining budget.
+
+Note:
+The remaining budget can also be negative.
+The code for handling inputs is already been given, your task is to fill in the required code
+
+//solution:
+  package 922268;
+  import java.util.Scanner;
+  public class Expense Tracker {
+  public static void main(String[] args) {
+  Scanner scanner new Scanner(System.in);
+  int numberOfDays scanner.nextInt(); 
+  double costPerDay scanner.nextDouble();
+  double initialBudget scanner.nextDouble();
+//-write your code here...
+int numberofDays = c;
+ double a = c;  //converting int to double
+ double b = costPerDay * c;
+double d initialBudget-b;
+ System.out.println(d);
+  }
+}
+
+Sample Test Cases
+
+Test Case 1:
+Expected Output:
+250.50
+850002
+
+Test Case 2:
+Expected Output:
+10
+3000
